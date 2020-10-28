@@ -1,0 +1,11 @@
+<!--pages/login/login.wxml-->
+<view class="top">
+   <image src="/images/windfill.png" id="fengche" ></image>
+</view>
+<view class="middle">
+  <input type="text" class="shuru" placeholder=" 用户名" bindinput="inputName"></input>
+  <input type="number" class="shuru" placeholder=" 密码" bindinput="inputPassword"></input>
+</view>
+<view>
+  <button class="ann" bindtap="login" hover-class="anniu-hover" type="">Login</button>
+</view>

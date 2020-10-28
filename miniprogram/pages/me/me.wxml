@@ -1,0 +1,43 @@
+<!--pages/me/me.wxml-->
+<!--pages/about/about.wxml-->
+<view class="top">
+  
+  <view class="top2">
+  <image src="/images/bg.png" class="touxiang"></image>
+  <view class="nicheng">(●ˇ∀ˇ●)</view>
+  <view class="dj">lv.7</view>
+</view>
+  
+  <view class="dayu">></view>
+</view>
+
+<view class="two">
+  <image src="/images/y1.png" class="zimg"></image>
+  <view class="zi">本地音乐</view> 
+    
+</view>
+
+<view class="three">
+  <image src="/images/y5.png" class="zimg"></image>
+  <view class="zi">下载管理</view>
+
+</view>
+<view class="three">
+  <image src="/images/y2.png" class="zimg"></image>
+  <view class="zi">我的电台</view>
+</view>
+<view class="three">
+  <image src="/images/y4.png" class="zimg"></image>
+  <view class="zi">我的收藏</view>
+  
+</view>
+<view class="three">
+  <image src="/images/y3.png" class="zimg"></image>
+  <view class="zi">关注新歌</view>
+ 
+</view>
+<view class="two">
+  <image src="/images/y6.png" class="zimg"></image>
+  <view class="zi">设置</view>
+
+</view>

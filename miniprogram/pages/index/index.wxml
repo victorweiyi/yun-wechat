@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="top">
+    <image src="/images/bg.png" mode="aspectFill" class="touxiang"></image>
+</view>
+<view class="middle">
+  <input bindinput='inputName' type="text" class="shuru" placeholder="  用户名" ></input>
+  <input  bindinput='inputPassword' type="number" class="shuru" placeholder="  6位密码" ></input>
+</view>
+<view>
+  <button class="anniu" bindtap="register" hover-class="anniu-hover" type="">注册</button>
+</view>
+<!-- // name="userName" value="{{userName}}" name="userPwd" value="{{userPwd}}" -->

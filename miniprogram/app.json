@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/music/music",
+    "pages/me/me"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "玩转音乐",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar":{
+    "color": "#8b8b8b",
+    "selectedColor": "#000",
+    "list":[
+      {
+        "pagePath":"pages/music/music",
+        "text":"音乐汇",
+        "iconPath":"/images/hi2.png",
+        "selectedIconPath":"/images/hi1.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "/images/me2.png",
+        "selectedIconPath": "/images/me1.png"
+      }      
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+
+}

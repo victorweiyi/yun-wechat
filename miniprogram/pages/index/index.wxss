@@ -1,0 +1,44 @@
+/**index.wxss**/
+
+page {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.top{
+  display: flex;
+}
+.middle{
+  margin-top:50rpx; 
+}
+.touxiang{
+  border-radius: 100rpx;
+  width: 200rpx;
+  height: 200rpx;
+  margin: auto;
+  margin-top:100rpx; 
+}
+.shuru{
+  border: 2px solid #edeac3;
+  border-radius:40rpx;
+  width: 80%;
+  height: 100rpx;
+  margin: auto;
+  margin-top:30rpx;  
+}
+.anniu{
+  background-color: #55A8EC;
+  width: 80%;
+  height: 100rpx;
+  border-radius:80rpx;
+  color: white;
+  margin-top:30rpx;  
+  font-weight: 200; 
+  font-size: 40rpx;
+}
+.anniu-hover{
+  position: relative;
+  top: 3rpx;
+  box-shadow: 0px 0px 8px #999 inset;
+}

@@ -1,0 +1,20 @@
+<!--pages/music/music.wxml-->
+<swiper autoplay="true" interval="3000" duration="500">
+  <block wx:for="{{movie}}">
+    <swiper-item>
+      <image src="{{item.url}}" mode="aspectFit"></image>
+    </swiper-item>
+
+  </block>
+
+</swiper>
+<view>
+  <image src="/images/3.jpg" mode="aspectFit"></image>
+</view>
+<view>
+ <audio id="myaudio" src="{{src}}" name="{{name}}" mode="aspectFit"></audio>
+</view>
+ <view class="but">
+    <button bindtap="audioplay" class="but1">播放</button>
+    <button bindtap="audiopause" class="but2">暂停</button>
+ </view>
